@@ -2,6 +2,8 @@
 
 A focused, responsive personal portfolio for Raj Kumar Porandla, a B.Tech Computer Science and Engineering student working across machine learning, Android, and interactive software systems.
 
+**Live portfolio:** [raj-kumar-portfolio-main.vercel.app](https://raj-kumar-portfolio-main.vercel.app)
+
 ## Highlights
 
 - SMS Spam Classifier using the Firefly Algorithm: 95.55% accuracy, 0.9625 ROC-AUC, 20x feature reduction, and convergence in six iterations.
@@ -28,4 +30,12 @@ Open `http://localhost:4173` while the local server is running.
 
 ## Deployment
 
-Deploy directly on Vercel by importing this repository. No build output directory is needed because the project is static; Vercel serves `index.html` at the project root.
+This site is deployed on Vercel at [raj-kumar-portfolio-main.vercel.app](https://raj-kumar-portfolio-main.vercel.app).
+
+To deploy a new production version locally:
+
+```bash
+npx vercel --prod
+```
+
+The `vercel.json` configuration runs the site checks and serves the project root as a static site.
